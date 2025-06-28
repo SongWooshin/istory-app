@@ -1,4 +1,3 @@
-```yml
 #5
 name: istory scaling ci/cd pipeline
 
@@ -122,4 +121,3 @@ jobs:
       - name: 배포 최종 성공 확인
         run: |
           aws deploy wait deployment-successful --deployment-id ${{ steps.deploy.outputs.deployment_id }}
-```
