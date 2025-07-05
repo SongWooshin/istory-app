@@ -1,3 +1,6 @@
+**/.env.secret
+**/.env.app.config
+**/.env.db.secret
 **/.terraform
 **/.terraform.lock.hcl
 **/*.tfstate
